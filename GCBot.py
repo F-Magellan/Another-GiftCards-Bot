@@ -14,8 +14,8 @@ init()
 #-------------Imports y Froms----------------
 #-----------------Titulo y el Input osusaasdsadada------------------
 version = "ULTIMATE"
-set_title(f'GC Generator Bot {version} by Chirimoya | Enjoy the Tool')
-input(f"Hey welcome to the tool\nThis tool is for{Fore.RED} educational purposes{Fore.RESET}\nI will not be responsible for the misuse of the program\n{Fore.RED}Most of the codes will not work because they are random and string functions{Fore.RESET}, so good luck with that :D\nWith that said, hit {Fore.YELLOW}ENTER{Fore.RESET} to continue")
+set_title(f'GC Generator Bot {version} by Contact | Server Booster Tool')
+input(f"GC Root {Fore.RED} Activated{Fore.RESET}\nI will help you generate GiftCards.\n{Fore.RED}You Are to use at your own risk. results not promised. {Fore.RESET},Thank you, For Boosting. Enjoy hit {Fore.YELLOW}ENTER{Fore.RESET} to continue")
 print(Fore.BLUE + """
  _____  _____   _____                           _              ______       _   
 |  __ \/  __ \ |  __ \                         | |             | ___ \     | |  
@@ -24,7 +24,7 @@ print(Fore.BLUE + """
 | |_\ \| \__/\ | |_\ \  __/ | | |  __/ | | (_| | || (_) | |    | |_/ / (_) | |_ 
  \____/ \____/  \____/\___|_| |_|\___|_|  \__,_|\__\___/|_|    \____/ \___/ \__|                                                                                                                                                                
 """ + Fore.RESET)
-#-----------------Titulo y el Input osusaasdsadada------------------
+#-----------------Ultimate AIO------------------
 #-----Config Data----------------------------------------
 with open('config.json') as f:
 	config = json.load(f)
@@ -34,11 +34,11 @@ game = config.get("RPC")
 rate = config.get("rate")
 per = config.get("per")
 t = BucketType.default
-anouncement = requests.get('https://pastebin.com/raw/jeqPhRxu')
+anouncement = requests.get('https://pastebin.com/raw/1h6Pi9Fe')
 #-----Config Data----------------------------------------
 client = commands.Bot(command_prefix=prefix)
 client.remove_command('help')
-print(f"{Fore.MAGENTA}Message of the day, by Chirimoya: {anouncement.text}{Fore.RESET}")
+print(f"{Fore.MAGENTA}Message of the day, by Contact: {anouncement.text}{Fore.RESET}")
 #-----------------------------------------Eventos de la GiftCards osiosi----------------------------------------------------------------------------
 def Nitro():
     code = ''.join(random.choices(string.ascii_letters + string.digits, k=16))
@@ -248,7 +248,7 @@ async def on_command_error(ctx, error):
 async def nitro(ctx):
   print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.BLUE}Nitro Code{Fore.RESET} in time {datetime.datetime.now()}!")
   await ctx.author.send(Nitro())
-  embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x0b81da)
+  embed=discord.Embed(title="Hey ur code hit  the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x0b81da)
   embed.set_thumbnail(url="https://i.imgur.com/RY5oA8m.gif")
   embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=True)
   embed.set_footer(text="GC Generator Bot Tool")
@@ -260,7 +260,7 @@ async def nitro(ctx):
 async def nitrobox(ctx):
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.CYAN}Xbox Nitro Code{Fore.RESET} in time {datetime.datetime.now()}!")
     await ctx.author.send(NitroBox())
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x0b81da)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x0b81da)
     embed.set_thumbnail(url="https://bot.to/wp-content/uploads/2020/09/animated-emojis_5f702f96b0333.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=True)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -272,7 +272,7 @@ async def nitrobox(ctx):
 async def nike(ctx):
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.WHITE}Nike Code{Fore.RESET} in time {datetime.datetime.now()}!")
     await ctx.author.send(Nike())
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x545a63)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x545a63)
     embed.set_thumbnail(url="https://prod.media.libero.pe/1200x660/libero/imagen/2018/11/06/noticia-1541520430-nike-logo-clasico.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=True)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -284,7 +284,7 @@ async def nike(ctx):
 async def netflix(ctx):
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.RED}Netflix Code{Fore.RESET} in time {datetime.datetime.now()}!")
     await ctx.author.send(Netflix())
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xb90404)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xb90404)
     embed.set_thumbnail(url="https://i.imgur.com/3qKDpcJ.gif")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -296,7 +296,7 @@ async def netflix(ctx):
 async def spotify(ctx):
     await ctx.author.send(Spotify())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}Spotify Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x08e20f)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x08e20f)
     embed.set_thumbnail(url="https://i.imgur.com/RL8Y2R8.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -308,7 +308,7 @@ async def spotify(ctx):
 async def blizzard(ctx):
     await ctx.author.send(Blizzard())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.CYAN}Blizzard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x0c08e2)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x0c08e2)
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_image(url="https://i.imgur.com/lJ91mya.png")
     embed.set_footer(text="GC Generator Bot Tool")
@@ -320,7 +320,7 @@ async def blizzard(ctx):
 async def robux(ctx):
     await ctx.author.send(Robux())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}Roblox Robux Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x07f262)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x07f262)
     embed.set_thumbnail(url="https://i.imgur.com/pGl4Zgl.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -332,7 +332,7 @@ async def robux(ctx):
 async def mcwin10(ctx):
     await ctx.author.send(MCWin10())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}MC Win 10 Key {Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x07f262)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x07f262)
     embed.set_thumbnail(url="https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -344,7 +344,7 @@ async def mcwin10(ctx):
 async def mckey(ctx):
     await ctx.author.send(MCCode())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}Minecraft Code {Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x07f262)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x07f262)
     embed.set_thumbnail(url="https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -356,7 +356,7 @@ async def mckey(ctx):
 async def dstoken(ctx):
     await ctx.author.send(DiscordToken())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.BLUE}Discord Token{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur token in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x2d47c8)
+    embed=discord.Embed(title="Hey ur token in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x2d47c8)
     embed.set_thumbnail(url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Font_Awesome_5_brands_discord_color.svg/1200px-Font_Awesome_5_brands_discord_color.svg.png")
     embed.add_field(name="I send u the token in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -368,7 +368,7 @@ async def dstoken(ctx):
 async def vbucks(ctx):
     await ctx.author.send(Vbucks())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.MAGENTA}V-Bucks Fortnite Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x2dc894)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x2dc894)
     embed.set_thumbnail(url="https://media.discordapp.net/attachments/774657503538446357/778515244661997598/5bd9f4860591f23a4b521857.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -380,7 +380,7 @@ async def vbucks(ctx):
 async def uplay(ctx):
     await ctx.author.send(Uplay())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.CYAN}Uplay Key{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x3378a3)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x3378a3)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/589565983467765820/827937520708222986/Uplay_logo-bw.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -392,7 +392,7 @@ async def uplay(ctx):
 async def malwarebytes(ctx):
     await ctx.author.send(MalwareBytes())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.CYAN}MalwareBytes Key{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x3378a3)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x3378a3)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/589565983467765820/827939544527536229/descarga_1.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -404,7 +404,7 @@ async def malwarebytes(ctx):
 async def avast(ctx):
     await ctx.author.send(Avast())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.YELLOW}Avast AntiVirus Key{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xf0e800)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xf0e800)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/589565983467765820/827940910791655434/descarga_2.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -416,7 +416,7 @@ async def avast(ctx):
 async def exvpn(ctx):
     await ctx.author.send(ExpressVPN())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.RED}Express VPN Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xf02400)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xf02400)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827942693103468555/ExpressVPN-logo.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -428,7 +428,7 @@ async def exvpn(ctx):
 async def hma(ctx):
     await ctx.author.send(HMA())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.CYAN}Hide My Ass Key{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x218cb0)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x218cb0)
     embed.set_thumbnail(url="https://media.discordapp.net/attachments/782292942067990569/827943564423987220/HideMyAss_Logo.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -440,7 +440,7 @@ async def hma(ctx):
 async def zaltv(ctx):
     await ctx.author.send(ZALTV())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.MAGENTA}ZalTV Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x000000)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x000000)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827945727833538580/descarga.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -452,7 +452,7 @@ async def zaltv(ctx):
 async def paysafe(ctx):
     await ctx.author.send(Paysafecard())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.CYAN}PaySafe Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x3f87d5)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x3f87d5)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827946982634422282/descarga_3.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -464,7 +464,7 @@ async def paysafe(ctx):
 async def steamkey(ctx):
     await ctx.author.send(Steam())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.MAGENTA}Steam Key{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x666061)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x666061)
     embed.set_thumbnail(url="https://media.discordapp.net/attachments/782292942067990569/827948563689635870/descarga_4.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -476,7 +476,7 @@ async def steamkey(ctx):
 async def amazon(ctx):
     await ctx.author.send(Amazon())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}Amazon GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x685a5f)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x685a5f)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827957897643294720/descarga_5.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -488,7 +488,7 @@ async def amazon(ctx):
 async def xbox(ctx):
     await ctx.author.send(Xbox())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}Xbox GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x0de76c)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x0de76c)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827958329841025036/1200px-Xbox_one_logo.svg.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -500,7 +500,7 @@ async def xbox(ctx):
 async def itunes(ctx):
     await ctx.author.send(Itunes())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.RED}Itunes GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xcd55dd)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xcd55dd)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827959207248527441/descarga_1.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -512,7 +512,7 @@ async def itunes(ctx):
 async def playstore(ctx):
     await ctx.author.send(Playstore())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.GREEN}PlayStore GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x4abaa4)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x4abaa4)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827960195850043503/cc49e0969fbc128b3c055440483f83a4.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -524,7 +524,7 @@ async def playstore(ctx):
 async def psn(ctx):
     await ctx.author.send(Playstation())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.BLUE}PSN GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x0040ff)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x0040ff)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827960729587679283/Psn-logo.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -536,7 +536,7 @@ async def psn(ctx):
 async def paypal(ctx):
     await ctx.author.send(Paypal())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.BLUE}PayPal GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x5777d6)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x5777d6)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827961287308345414/descarga_6.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -548,7 +548,7 @@ async def paypal(ctx):
 async def nintendo(ctx):
     await ctx.author.send(Nintendo())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.RED}Nintendo GiftCard Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xd91717)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xd91717)
     embed.set_thumbnail(url="https://media.discordapp.net/attachments/774657503538446357/778515402497982484/240px-Nintendo_switch_logo.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -560,7 +560,7 @@ async def nintendo(ctx):
 async def proxyscrape(ctx):
     await ctx.author.send(ProxyScrape())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.BLUE}ProxyScrape Premiun Key{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0x1751d9)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0x1751d9)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/827962526704468048/descarga_7.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -572,7 +572,7 @@ async def proxyscrape(ctx):
 async def webkinz(ctx):
     await ctx.author.send(Webkinz())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.MAGENTA}Webkinz Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xc03092)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xc03092)
     embed.set_thumbnail(url="https://media.discordapp.net/attachments/782292942067990569/828282417676419092/webkinz-logo.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -584,7 +584,7 @@ async def webkinz(ctx):
 async def imvu(ctx):
     await ctx.author.send(IMVU())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.YELLOW}IMVU Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xe43aae)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xe43aae)
     embed.set_thumbnail(url="https://www.mmaglobal.com/files/logos/social_network_imvu_and_artcenter-c39990a5985e7d402119e01c2bcf828b.jpg")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -596,7 +596,7 @@ async def imvu(ctx):
 async def pkmtcg(ctx):
     await ctx.author.send(PokemonTGC())
     print(f"  > User {Fore.RED} {ctx.author} {Fore.RESET} has generated a {Fore.RED}Pokemon TCG Code{Fore.RESET} in time {datetime.datetime.now()}!")
-    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/Chirimoya", description="Thank for using the bot", color=0xd0013f)
+    embed=discord.Embed(title="Hey ur code in the DMs!", url="https://cracked.to/BruteALL", description="Thank for using the bot", color=0xd0013f)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/589565983467765820/828292502683516968/descarga_1.png")
     embed.add_field(name="I send u the code in DM", value="Pls go to check it!", inline=False)
     embed.set_footer(text="GC Generator Bot Tool")
@@ -729,7 +729,7 @@ async def nuke(ctx, channel: discord.TextChannel = None):
 
 @client.command()
 async def info(ctx):
-    embed=discord.Embed(title="Info", url="https://cracked.to/Chirimoya", description="Thank for using the bot\nTotally free tool in c.to for the discord community", color=0xa18c8c)
+    embed=discord.Embed(title="Info", url="https://cracked.to/BruteALL", description="Thank for using the bot\nTotally free tool in c.to for the discord community", color=0xa18c8c)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/782292942067990569/828297174961225728/gift-card.png")
     embed.set_image(url="https://cdn.discordapp.com/attachments/782292942067990569/828297834674782228/397ce7ff2fc83a09a8ec26e2a9fd0c3b.jpg")
     embed.set_footer(text="GC Generator Bot Tool")
